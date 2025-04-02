@@ -3,8 +3,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # Bot token and username
-TOKEN: Final = '7220999149:AAHzwSTmgL_uEqisdrgD4-bB0Z9qj-lLpbI'
-BOT_USERNAME: Final = '@Deeptesh_bot'
+TOKEN: Final = 'YOUR TELEGRAM BOT TOKEN'
+BOT_USERNAME: Final = 'YOUR BOT USER NAME'
 
 # Commands
 async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
